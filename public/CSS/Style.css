@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+}
+p.error{
+    color: red;
+    font-weight: bold;
+}
