@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
         'name' => 'usuario/proyecto-tienda',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'da18df82dccf955e8fdd43687523b416c512223b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'firebase/php-jwt' => array(
+            'pretty_version' => 'v6.10.2',
+            'version' => '6.10.2.0',
+            'reference' => '30c19ed0f3264cb660ea496895cfb6ef7ee3653b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../firebase/php-jwt',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'graham-campbell/result-type' => array(
             'pretty_version' => 'v1.1.3',
             'version' => '1.1.3.0',
@@ -56,9 +65,9 @@
             'dev_requirement' => false,
         ),
         'usuario/proyecto-tienda' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'da18df82dccf955e8fdd43687523b416c512223b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
